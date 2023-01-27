@@ -4,7 +4,8 @@
 abc <- function(x){
   data.frame(
     min = min(x),
-    sum = sum(x)
+    sum = sum(x),
+    max = max(x)
 
   )
 }
